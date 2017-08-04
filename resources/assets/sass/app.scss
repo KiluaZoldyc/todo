@@ -1,0 +1,35 @@
+
+/*// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");*/
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+body{
+	font-family: 'Bowlby One SC', cursive;
+	color: #181818;
+	background-color: silver;
+}
+h2 , h3{
+	padding: 0px;
+	margin: 0px;
+}
+.titre{
+	text-align: center;
+}
+.cat_white{
+	background-color: white;
+	text-align: center;
+	border-radius: 6px;
+	
+
+}
+.bouton{
+	display: flex;
+	justify-content: space-between;
+
+}
